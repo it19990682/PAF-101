@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#intro {
+background-image: url("");
+height: 100%;
+}
+
+.divider-text span {
+    padding: 10px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #b84646;
+    color: #fff;
+}
+
+.user_error {
+	color: red;
+	font-weight: bold;
+}
+
+.pmf:focus{
+	outline-color: red;
+	outline-style: solid;
+    border-color: red;
+    box-shadow: 0 0 0 0.25rem rgb(255 0 0 / 25%);
+}
+
+.hide {
+	display: none;
+}
+
+

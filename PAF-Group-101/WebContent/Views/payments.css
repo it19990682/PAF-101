@@ -1,0 +1,302 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.pbody{
+	background: url("https://images.unsplash.com/photo-1413882353314-73389f63b6fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.pbc1{
+	background: #fff;
+	height: 100vh;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: absolute;
+}
+
+#pbillh1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#pbillformleft {
+	width: 50%;
+	float:left;
+	height: 99%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pblefth4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.pfduppu {
+	width: 150%;
+}
+
+.pfduu {
+	width: 50%;
+	float: right;
+}
+
+.pContainer{
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+.totPayble {
+	background: #f8433a;
+	padding: 20px;
+	padding-top: 10px;
+}
+
+#pfd1totalpayable {
+	background: #f8433a;
+	color: #fff;
+	padding: 0;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pfi1:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#pbillformright{
+	width: 50%;
+	float:right;
+	height: 99%;
+}
+
+.upper{
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#pbillupper{
+	margin-top: 50px;
+	margin-right: 60px;
+	background: #36454F;
+	width: 80%;
+}
+
+.pbupperh4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.pfd1lu {
+	color: white;
+}
+
+.lower{
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#pfd1proceed{
+	margin-top:25px;
+	width: 49%;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#pfd1cancel {
+	margin-top: 25px;
+	float: right;
+	width: 49%;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pfd1{
+	margin-top: 15px;
+}
+
+.pfi1{
+	margin-top: 5px;
+	cursor: default;
+}
+
+#pfd1accnumber{
+	color: red;
+	font-weight: bold;
+}
+
+.paymethod {
+	margin-bottom: 10px;
+}
+
+.pflpmh4 {
+	color: red;
+}
+
+.pfld {
+	margin-top: 5px;
+}
+
+#makepayment{
+	background: #2ba8b1;
+	text-transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
+	border-radius: 0;
+	width: 250px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+#makepayment:hover {
+	background: #47b2b9;
+}
+
+#pmethoderror{
+	color: red;
+	font-weight: bold;
+}
+
+#pmethodsuccess{
+	color: green;
+	font-weight: bold;
+}
+
+.pmf:focus{
+	outline-color: red;
+	outline-style: solid;
+    border-color: red;
+    box-shadow: 0 0 0 0.25rem rgb(255 0 0 / 25%);
+}
+
+.loader {
+	width: 120px;
+	height: 75px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+	top: 50%; 
+	right: 50%;
+  	transform: translate(50%,-50%);
+	position: absolute;
+}
+
+.loaderBackgroung{
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.9);
+}
+
+.hide{
+	display: none;
+}
+
+.loader span {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: auto;
+	color: #fff;
+}
+
+.ball {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #fff;
+	animation: bounce .5s alternate infinite;
+}
+
+.ball:nth-child(2) {
+	animation-delay: .16s;
+}
+
+.ball:nth-child(3) {
+	animation-delay: .32s;
+}
+
+@keyframes bounce {
+	from {
+		transform: scaleX(1.25);
+	}
+	to {
+		transform: translateY(-50px) scaleX(1);
+	}
+}
+
+.payment-accept{
+	display: flex;
+	flex-direction: column;
+	top: 50%; 
+	right: 50%;
+  	transform: translate(50%,-50%);
+	position: absolute;
+}
+
+.green-check{
+	width: 300px;
+	padding: 25px;
+}
+
+.payment-accept span {
+	font-size: 58px;
+	margin: auto;
+	color: #fff;
+	font-family: 'Hind Madurai', sans-serif;
+	text-align: center;
+	line-height: 100%;
+}
+
+/* Payment History Table */
+
+.phistoryTitle {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 50px;
+	color: #fff;
+}
+
+.historytbl {
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.historyBody {
+	background: url("https://blog.avast.com/hs-fs/hubfs/avast-blog/Avast-History-Of-Online-Payments-1.png?width=1920&name=Avast-History-Of-Online-Payments-1.png"); 
+}
+
+.btn-clear {
+	background: red;
+	width: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: red !important;
+	color: #fff
+}
+
+.btn-clear:hover {
+	background: #B22222 !important;
+}
+
+.btn-pay {
+	width: 300px;
+}

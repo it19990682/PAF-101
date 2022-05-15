@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.divider-text {
+    position: absolute;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.noticeError {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pmf:focus{
+	outline-color: red;
+	outline-style: solid;
+    border-color: red;
+    box-shadow: 0 0 0 0.25rem rgb(255 0 0 / 25%);
+}
+
+.footer{
+	
+}
